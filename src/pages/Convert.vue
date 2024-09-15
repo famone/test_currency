@@ -67,7 +67,6 @@ function exchangeSides(){
   const nv = {...pair.to};
   pair.to = pair.from;
   pair.from = nv;
-  calculateCourse();
 }
 
 </script>
