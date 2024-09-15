@@ -12,7 +12,6 @@
   "dependencies": {
     "@tailwindcss/forms": "^0.5.9",
     "axios": "^1.7.7",
-    "maska": "^3.0.2",
     "pinia": "^2.2.2",
     "vue": "^3.4.37",
     "vue-router": "^4.4.5"
