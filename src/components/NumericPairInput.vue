@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100 grid grid-cols-2 gap-0.5 divide-x-2 p-1 rounded">
+  <div class="bg-gray-100 grid grid-cols-2 gap-0.5 divide-x-2 p-1 rounded relative">
     <div class="col-span-1">
       <input
         v-model="amount"
@@ -23,6 +23,12 @@
         </option>
       </select>
     </div>
+    <span
+      v-if="amount === ''"
+      class="error"
+    >
+      Значение цифрового поля некорректно
+    </span>
   </div>
 </template>
 

@@ -8,9 +8,9 @@
         <router-link
           v-for="(item, index) in navs"
           :key="index"
-          class="font-medium rounded-lg px-2 py-2 transition-all"
+          class="font-medium rounded-lg px-2 py-2 transition-all bg-slate-800 bg-opacity-20"
           :to="item.url"
-          exact-active-class="bg-slate-800"
+          exact-active-class="!bg-opacity-100"
         >
           {{ item.text }}
         </router-link>
