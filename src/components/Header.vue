@@ -27,8 +27,6 @@
           {{ item }}
         </option>
       </select>
-    <!-- <pre>{{ courseStore.currencies }}</pre>
-    <pre>{{ courseStore.mainCurrency }}</pre> -->
     </div>
   </div>
 </template>
